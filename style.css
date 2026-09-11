@@ -141,6 +141,23 @@ main.plainsections .body { max-width: var(--measure); }
 p { margin: 0 0 14px; }
 p:last-child { margin-bottom: 0; }
 
+.creative-example { margin: 0; }
+.creative-example img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-firm);
+  border-radius: 4px;
+  background: var(--raised);
+}
+.creative-example figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-family: var(--f-head);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
 ul.plain { margin: 0 0 14px; padding-left: 20px; }
 ul.plain li { margin-bottom: 9px; }
 ul.plain li:last-child { margin-bottom: 0; }

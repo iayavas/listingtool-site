@@ -1,0 +1,5 @@
+# Reviewer materials stay on the operator's computer and are sent privately.
+review/
+PLAN.md
+test-results/
+playwright-report/
